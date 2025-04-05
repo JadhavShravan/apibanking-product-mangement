@@ -1,4 +1,4 @@
-# Product Management API
+   # Product Management API
 
 ## Overview
 
@@ -51,13 +51,17 @@ quarkus.hibernate-orm.database.generation=update
  
 **make sure you replaced database details with your credentiales**
 3. Run below commands
+```bash
   ./mvnw clean install  
   ./mvnw compile quarkus:dev
 
 4. Access Swagger UI
 **Test API using swagger**
+```bash
+http://localhost:8080/swagger-ui
 
 5. Run Unit Tests
+```bash
  ./mvnw test
 
 
