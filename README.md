@@ -40,7 +40,7 @@ Follow these steps to get the project up and running locally.
 
    ```bash
    git clone https://github.com/JadhavShravan/apibanking-product-mangement.git
-cd apibanking-product-mangement
+   cd apibanking-product-mangement
 
 2. Check Database :
  ```bash
