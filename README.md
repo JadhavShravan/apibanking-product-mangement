@@ -44,13 +44,13 @@ Follow these steps to get the project up and running locally.
 
 2. Check Database :
  ```bash
-quarkus.datasource.db-kind=mysql
-quarkus.datasource.username=your-username
-quarkus.datasource.password=your-password
-quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/products
-quarkus.hibernate-orm.database.generation=update
+   quarkus.datasource.db-kind=mysql
+   quarkus.datasource.username=your-username
+   quarkus.datasource.password=your-password
+   quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/products
+   quarkus.hibernate-orm.database.generation=update
  
-**make sure you replaced database details with your credentiales**
+ **make sure you replaced database details with your credentiales**
 3. Run below commands:
 ```bash
   ./mvnw clean install  
