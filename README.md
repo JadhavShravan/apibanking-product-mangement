@@ -51,19 +51,20 @@ Follow these steps to get the project up and running locally.
    quarkus.hibernate-orm.database.generation=update
  
  **make sure you replaced database details with your credentiales**
-3. Run below commands:
+
+3. Run Below Commands:
 ```bash
-  ./mvnw clean install  
-  ./mvnw compile quarkus:dev
+   ./mvnw clean install  
+   ./mvnw compile quarkus:dev
 
 4. Access Swagger UI:
-**Test API using swagger**
+   **Test API using swagger**
 ```bash
-http://localhost:8080/swagger-ui
+   http://localhost:8080/swagger-ui
 
 5. Run Unit Tests:
 ```bash
- ./mvnw test
+   ./mvnw test
 
 
 
