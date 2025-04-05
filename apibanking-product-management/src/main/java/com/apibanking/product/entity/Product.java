@@ -20,12 +20,11 @@ public class Product extends PanacheEntityBase {
 	}
 
 	public Product(String name, String description, Double price, Integer quantity) {
-	    this.name = name;
-	    this.description = description;
-	    this.price = price;
-	    this.quantity = quantity;
+		this.name = name;
+		this.description = description;
+		this.price = price;
+		this.quantity = quantity;
 	}
-
 
 	public Integer getId() {
 		return id;
