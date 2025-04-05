@@ -42,7 +42,7 @@ Follow these steps to get the project up and running locally.
    git clone https://github.com/JadhavShravan/apibanking-product-mangement.git
 cd apibanking-product-mangement
 
-2. Check Database
+2. Check Database :
  ```bash
 quarkus.datasource.db-kind=mysql
 quarkus.datasource.username=your-username
@@ -51,17 +51,17 @@ quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/products
 quarkus.hibernate-orm.database.generation=update
  
 **make sure you replaced database details with your credentiales**
-3. Run below commands
+3. Run below commands:
 ```bash
   ./mvnw clean install  
   ./mvnw compile quarkus:dev
 
-4. Access Swagger UI
+4. Access Swagger UI:
 **Test API using swagger**
 ```bash
 http://localhost:8080/swagger-ui
 
-5. Run Unit Tests
+5. Run Unit Tests:
 ```bash
  ./mvnw test
 
