@@ -49,7 +49,6 @@ Follow these steps to get the project up and running locally.
    quarkus.datasource.password=your-password
    quarkus.datasource.jdbc.url=jdbc:mysql://localhost:3306/products
    quarkus.hibernate-orm.database.generation=update
- 
    **make sure you replaced database details with your credentiales**
 
 3. Run Below Commands:
